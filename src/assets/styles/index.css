@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .section-bg {
+    @apply bg-gray-100 min-w-full min-h-[calc(100vh_-_144px)] p-4;
+  }
+  .section-container {
+    @apply bg-white rounded-lg p-4;
+  }
+}
